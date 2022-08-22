@@ -455,6 +455,16 @@ border-radius: 300px;
   margin-bottom: 30px;
 }
 
+#contact-icon {
+  display: flex;
+  justify-content: center;
+}
+
+.p-contact {
+font-size: 20px;
+text-align: center;
+}
+
 .portfolio #portfolio-flters {
   padding: 0;
   margin: 0 auto 25px auto;
@@ -680,9 +690,9 @@ border-radius: 300px;
 }
 
 .contact .info i {
-  font-size: 20px;
+  font-size: 30px;
   color: #CC461B;
-  float: left;
+  float: center;
   width: 44px;
   height: 44px;
   background: #eef7ff;
@@ -695,7 +705,7 @@ border-radius: 300px;
 
 .contact .info h4 {
   padding: 0 0 0 60px;
-  font-size: 22px;
+  font-size: 30px;
   font-weight: 600;
   margin-bottom: 5px;
   color: #45505b;
@@ -704,7 +714,7 @@ border-radius: 300px;
 .contact .info p {
   padding: 0 0 0 60px;
   margin-bottom: 0;
-  font-size: 14px;
+  font-size: 20px;
   color: #728394;
 }
 
@@ -733,7 +743,7 @@ border-radius: 300px;
   display: none;
   color: #fff;
   background: #ed3c0d;
-  text-align: left;
+  text-align: center;
   padding: 15px;
   font-weight: 600;
 }
